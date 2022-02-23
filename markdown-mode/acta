@@ -1,0 +1,73 @@
+# -*- mode: snippet -*-
+# name: acta
+# key: acta
+# --
+
+---
+title: "${1:nombreReunion}"
+date: "${2:fecha}"
+output: bookdown::pdf_document2
+header-includes:
+- \usepackage[spanish]{babel}
+---
+
+# Apertura
+
+Siendo las ______ horas del día ______ se da inicio a la reunión.
+
+# Asistentes
+
+|Nombre   | Cargo  | Presente   |
+|:--|:--|:--|
+|   |   |   |
+
+
+Las personas asistentes son quórum suficiente para deliberar y decidir.
+
+# Agenda
+
+1. Verificación del quórum.
+2. Revisión de acciones pendientes.
+2. Presentación de la agenda.
+3. Desarrollo de los temas.
+   1. _____ .
+4. Proposiciones y Varios.
+5. Cierre.
+
+La agenda fue aprobada por los asistentes.
+
+# Revisión de acciones pendientes.
+
+La lista de acciones fue revisada y actualizada reflejando las acciones cerradas.
+
+# Desarrollo de la agenda
+
+## _________
+
+# Proposiciones y Varios
+
+**Ninguno de los asistentes propuso temas adicionales.**
+
+o
+
+**Se presentaron y desarrollaron los siguientes temas:**
+
+- _________
+- _________
+
+# Aprobación de Acta
+
+Se procede a leer el contenido de esta acta, la cual es inmediatamente aprobada por los asistentes.
+
+# Cierre
+
+Siendo las ______ horas se da por terminada la reunión.
+
+\small
+
+# Acciones Definidas
+
+| Acción | Responsable | Fecha | Novedad |
+|:-------|:------------|:------|:--------|
+|	 |	       |       |         |
+

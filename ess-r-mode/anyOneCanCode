@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: anyoneCanCode
+# key: anyoneCanCode
+# --
+
+anyone(${1:code})

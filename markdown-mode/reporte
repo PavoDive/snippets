@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: reporte
+# key: reporte
+# --
+
+---
+title: "${1:title}"
+author: "${2:author}"
+date: "${3:date}"
+output: bookdown::pdf_document2
+header-includes:
+   - \usepackage[spanish, es-tabla]{babel}
+---
+
+\`\`\`{r setup, include=FALSE}
+library(data.table)
+library(ggplot2)
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, out.width= "80%", cache = TRUE)
+\`\`\`

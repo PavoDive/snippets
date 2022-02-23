@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: corrigeNombres
+# key: corrigeNombres
+# --
+
+corrigeNombres = function(nombres){
+    gsub("\\.+", "\\.", make.unique(stringi::stri_trans_general(tolower(make.names(nombres)), "latin-ascii")))
+}
+

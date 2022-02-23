@@ -1,0 +1,56 @@
+# -*- mode: snippet -*-
+# name: presentacion
+# key: presentacion
+# --
+
+---
+title: "Optimización Serie de Cajas"
+author: "Giovanni Pavolini - Optimizamos"
+date: "2021-04-15"
+output:
+  xaringan::moon_reader:
+      self_contained: true
+  lib_dir: libs
+nature:
+  highlightStyle: github
+highlightLines: true
+countIncrementalSlides: false
+---
+
+{r, include = FALSE}
+library(data.table)
+library(ggplot2)
+library(kableExtra)
+library(knitr)
+
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = TRUE)
+
+
+background-image: url(/home/gp/pCloudDrive/1D/OPTIMIZAMOS/marcaLlogo/PNG/horizontal.png)
+
+---
+class: inverse, middle
+
+.center[
+# Temas
+]
+
+1. Objetivo.
+2. Estrategia.
+3. Clasificación Pedidos.
+4. Simulación Series.
+  1. Actual.
+  2. Propuestas.
+5. Serie Seleccionada.
+  1. Seleccionador de cajas simplificado.
+6. Otras observaciones.
+
+---
+
+
+---
+class: inverse, center, middle, 
+
+.Huge[
+¡GRACIAS!
+]

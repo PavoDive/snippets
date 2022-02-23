@@ -1,0 +1,48 @@
+# -*- mode: snippet -*-
+# name: presentacion
+# key: presentacion
+# --
+
+---
+title: "${1:title}"
+author: "${2:author}"
+date: "${3:date}"
+output:
+  xaringan::moon_reader:
+      self_contained: true
+  lib_dir: libs
+nature:
+  highlightStyle: github
+highlightLines: true
+countIncrementalSlides: false
+---
+
+\`\`\`{r, include = FALSE}
+library(data.table)
+library(ggplot2)
+library(kableExtra)
+library(knitr)
+
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = TRUE)
+\`\`\`
+
+background-image: url(/home/gp/pCloudDrive/1D/OPTIMIZAMOS/marcaLlogo/PNG/horizontal.png)
+
+---
+class: inverse, middle
+
+.center[
+# Temas
+]
+
+1. Objetivo.
+
+---
+
+
+---
+class: inverse, center, middle, 
+
+.Huge[
+¡GRACIAS!
+]
